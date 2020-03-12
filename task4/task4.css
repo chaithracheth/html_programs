@@ -1,0 +1,421 @@
+*
+{
+    padding:0%;
+    margin: 0%;
+}
+html,body
+{
+    width:100%;
+    height: calc(100% - 50px);
+    font-family: 'Montserrat', sans-serif
+}
+.Header
+{ width: 100%;
+    height: 50px;
+    background-image: url('/home/chaithra/tasks/task4/images/hdr-navi.jpg');
+    display: flex;}
+.headerLeftImage
+{align-items: center;
+    width: 20%;
+    display: flex;
+}
+.LeftImage
+{margin-top: 8px;
+    margin-left: 19px;
+    width: 15%;
+    height: 30px;
+}
+.headerMiddleImage
+{ width: 75%;
+    height: 100%;
+}
+.MiddleImage
+{ margin-left: 122px;
+}
+.headerRightImage
+{width: calc(100% - 95%);
+    display: flex;
+    align-items: center;
+}
+.RightImage
+{margin-top: 8px;
+    width: 47px;
+    height: 30px;
+}
+.bodyContiner
+{
+    width: 100%;
+    height: calc(100% - 50px);
+}
+.bodyTop
+{width: 100%;
+     height: 195px;
+}
+.Rid
+{margin-top: 11px;
+    font-size: large;
+    margin-left: 10px;
+    width: 20%;
+    height: 70px;
+    display: inline-block;
+}
+.pid
+{font-weight: bold;
+    font-size: 18px;
+    color:#5d5d5d;
+    font-family: 'Montserrat', sans-serif;
+}
+.pjob
+{font-weight: 500;
+    font-size: 28px;
+    color:#5d5d5d;
+    font-family: 'Montserrat', sans-serif;
+}
+.bodyContiner_rightimage
+{margin: 12px 54px 0px 0px;
+    float: right;
+    margin-top: 12px;
+}
+.MiddleWrapper
+{background-image: url('/home/chaithra/tasks/task4/images/main-hdr-bg.jpg');
+    width: 100%;
+    height: 44px;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.task
+{margin-top: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+}
+.button
+{ margin-right:15px;
+    text-align: center;
+    margin-top: 6px;
+    color: white;
+    display: inline-block;
+    height: 28px;
+    width: 10%;
+    float: right;
+    background-image:url('/home/chaithra/tasks/task4/images/dark-blue-lft.png');
+}
+.NewTask
+{ text-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 3px;
+}
+.bodybottom
+{width: 100%;
+    height: calc(100% - 195px);
+    overflow: auto;
+}
+.continer{
+    width: 100%;
+    height: 180px;
+    border-bottom: 2px solid #ededed;
+    display: flex;
+}
+.firstWrapper
+{ background-color:#ffffff;
+}
+.firstWrapperLeftImage
+{   margin-top: 10px;
+    margin-left: 25px;
+    height: 128px;
+    background-image: url(/home/chaithra/tasks/task4/images/img-thumb.jpg);
+    background-repeat: no-repeat;
+    float: left;
+    width: 10%;
+    border: 1px solid #ededed;
+    display: inline-block;
+}
+.firstWrapperText
+{
+    margin-top: 14px;
+    display: inline-block;
+    width: 55%;
+    height: 137px;
+    margin-left: 21px;
+}
+.firstWrapperHeading
+{color: #545353;
+    font-weight: 500;
+    font-family:'Montserrat', sans-serif;
+}
+.firstWrapperData
+{color: #5d5d5d;
+    font-size: 14px;
+    font-family:'Montserrat', sans-serif;
+    line-height: 1.5em;
+}
+.attachment
+{ display: flex;
+    margin-top: 4px;
+    border: 1px solid #ededed;
+    width: 6%;
+    height: 23px;
+    align-items: center;
+}
+.number
+{color: #545454;
+}
+.firstWrappeRightConiner
+{width: 135px;
+    height: 135px;
+    margin: 0px 42px 0px 156px;
+}
+.righttext
+{
+    font-size: 10px;
+    font-weight: bolder;
+    color: #575757;
+}
+.activeImage
+{display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 6px;
+    border: 1px solid #ededed;
+    width: 135px;
+    height: 45px;
+}
+.activeImagesDiv
+{border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    display: inline-block;
+    width: 44px;
+    height: 22px;
+    background-image: url(//home/chaithra/tasks/task4/images/icon-item.png);
+}
+.numberpostion
+{color: #7D7D7D;
+    margin-left: 20px;
+    font-size: 11px;
+}
+.deactive
+{color:#dddddd;
+}
+.oneActive
+{ text-align: center;
+background-position: 0px 2px;
+
+}
+.oneDective
+{background-image: url(/home/chaithra/tasks/task4/images/icon-deactive.png);    
+    text-align: center;
+    background-position: 0px 2px;
+}
+.twoActive
+{background-position: -60px 2px;
+}
+.twoDeactive
+{background-image: url(/home/chaithra/tasks/task4/images/icon-deactive.png);
+    background-position: -60px 2px;
+}
+.threeActive
+{
+    background-position: -117px 1px;
+}
+.threeDeactive
+{
+ background-image: url(/home/chaithra/tasks/task4/images/icon-deactive.png);
+    background-position: -117px 1px;
+
+}
+.fourActive
+{
+    background-position: -152px 20px;
+}
+.fiveActive
+{
+    background-position: -215px 20px;
+}
+.fiveDeactive
+{ background-image: url(/home/chaithra/tasks/task4/images/icon-deactive.png);
+    background-position: -215px 20px;
+}
+.sixActive
+{
+    background-image: url(/home/chaithra/tasks/task4/images/setting.png);  
+    background-repeat: no-repeat;  
+}
+.sixDective
+{
+    background-image: url(/home/chaithra/tasks/task4/images/setting.png);  
+    background-repeat: no-repeat;
+    
+}
+.arrow
+{
+    background-image: url('/home/chaithra/tasks/task4/images/list-arrow.png');
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    width: 50px;
+    display: inline-block;
+    background-position: 30px;
+}
+.severity
+{margin-top: 10px;
+    font-size: 10px;
+    font-weight: bolder;
+    color: #575757;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+.listWrapper
+{
+    border: 1px solid #E0E0E0;
+    border-radius: 20px;
+    background-color: #ffffff;
+    flex-direction: row;
+    width: 100%;
+    height: 20px;
+    list-style-type: none;
+    display: flex;
+}
+.list
+{
+    display: inline-block;
+}
+.green
+
+{ border-radius: 20px 0px 0px 20px;
+    width: calc(100% / 3);
+    border-right: 1px solid white;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 13px;
+    background-image: url('/home/chaithra/tasks/task4/images/green-color.jpg');}
+.yellow
+{ background-image: url('/home/chaithra/tasks/task4/images/orange-color.jpg');
+    width: calc(100% / 3);
+    border-right: 1px solid white;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 13px;
+}
+.yellowfull
+{margin-left: 0px;
+}
+.redfull
+{border-radius: 0px 20px 20px 0px;
+    width: calc(100% / 3);
+    border-right: 1px solid white;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 13px;
+    background-image: url('/home/chaithra/tasks/task4/images/red-color.jpg');
+}
+.secondWrapper
+{
+    background-color:#f3f3f3;
+}
+.secondImage
+{
+    background-image: url(/home/chaithra/tasks/task4/images/img-thumb2.jpg);
+}
+.ThirdImage
+{
+    background-image: url(/home/chaithra/tasks/task4/images/img-thumb3.jpg);
+}
+.FifthImage
+{
+    background-image: url(/home/chaithra/tasks/task4/images/img-thumb4.jpg);
+}
+.severityNumber
+{
+    color: white;
+    margin-top: 2px;
+    font-weight: bolder;
+}
+.Imgattachment
+{
+    margin-left: 3px;
+}
+.leftalign
+{
+margin-left: 2px;
+}
+.dataalign
+{
+    margin-left: 3px;
+}
+.detailWrapper__ul {
+    margin-left: 12px;
+    width: 60%;
+    display: flex;
+    list-style-type: none;
+    border: 1px solid #cccaca;
+    border-radius: 5px;
+}
+.listItem:first-child {
+        padding: 7px 20px 4px 7px;
+}
+.listItem {
+    font-size: 12px;
+    color: #656263;
+    padding: 7px 20px 4px 13px;
+    border-right: 1px solid #E0E0E0;
+}
+.Item
+{
+    font-size: 12px;
+    color: #656263;
+    padding: 7px 20px 4px 13px;
+    
+}
+.text--overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.detailWrapper__ul .spanWeightLighter {
+    font-weight: lighter;
+    color: #292829;
+}
+.detailWrapper__ul .detailWrapper__lihead {
+    line-height: 14px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #000000;
+}
+.detailWrapper__lihead {
+    display: block;
+}
+
+.footer {
+    margin-top: 50px;
+    padding-right: 15px;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(/home/chaithra/tasks/task4/images/footr-bg.jpg);
+    height: 50px;
+    display: flex;
+}
+.footerImg {
+    display: inline-block;
+    height: 35px;
+    width: 200px;
+    background-position-y: -2px;
+    background-image: url(/home/chaithra/tasks/task4/images/poweredby-remedy-interactive.jpg);
+}
+.footerButton {
+    border: none;
+    background-image: url(/home/chaithra/tasks/task4/images/footr-link-rght.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30px;
+    width: 240px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
