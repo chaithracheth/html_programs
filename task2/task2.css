@@ -1,0 +1,156 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+.wrapper
+{
+    height: calc(100% - 86px);
+    width: 100%;
+}
+.header
+{
+    height: 86px;
+    background-color:white;
+    background-color: #35404f;
+    position: relative;
+    width: 100%;
+}
+.headerLeft
+{   
+    height: 100%;
+    width: 20%;
+    float: left;
+    background-position: center;
+    background-image: url(/home/chaithra/snap/skype/common/LOGO.svg);
+    background-repeat: no-repeat;
+    margin-left: 31px;   
+}
+.head
+{
+    padding: 11px 0px 0px 37px;
+    text-decoration: underline;
+    font-size: 51px;
+    color: #35404f;
+    font-family: 'Oxygen', sans-serif;
+}
+.right
+{
+    height: 94%;
+    width: 46%;
+    float: right;
+    background-color: #35404f;
+    position: relative;
+  
+}
+.para
+{
+    right: 26px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    font-weight: bold;
+    
+}
+.textalign
+{
+    position: relative;
+    height: 100%;
+    float: right;
+    width: 82%;
+    overflow: auto;
+}
+.nav{
+    
+    width: 18%;
+    float:left;
+    display: inline-block;
+    height: 100%;
+    background-color: #4d5a6f;
+    position: relative;
+    overflow: hidden;
+
+}
+.contenthead
+{
+    
+    text-decoration: underline;
+   float: left;
+
+}
+
+.content
+{
+   
+    position: absolute;
+    margin-top: 8px;
+    text-align: left;
+    margin-left: 28px;
+    height: 78%;
+    
+
+}
+.data
+{
+    position: relative;
+    line-height: 1.5em;
+    margin-left: 3px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 22px;
+    height: 100;
+    text-align: justify;
+}
+.navigation
+{
+   display: inline-block;
+    list-style: none;
+    
+    width: 100%;
+    
+position: absolute;
+}
+.link 
+{
+    
+    font-size: 18px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid rgb(171, 171, 173);
+    padding: 15px;
+    padding-bottom: 27px;
+}
+a:link 
+{
+    background-color: #4d5a6f;
+    height: 0px;
+    
+    
+}
+a:visited
+{
+
+    background-color:#4d5a6f;
+   
+}
+
+a:hover{
+    background-color:#2495eb;
+    color: white;
+
+  }
+
+  a:active
+{
+    background-color:#2495eb;
+}
+
+  
